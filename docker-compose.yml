@@ -73,6 +73,7 @@ services:
             - ENABLE_GUESTS
             - ENABLE_HSTS
             - ENABLE_HTTP_REDIRECT
+            - ENABLE_HTTP2
             - ENABLE_IPV6
             - ENABLE_LETSENCRYPT
             - ENABLE_NO_AUDIO_DETECTION
@@ -81,6 +82,7 @@ services:
             - ENABLE_OPUS_RED
             - ENABLE_PREJOIN_PAGE
             - ENABLE_P2P
+            - ENABLE_PROXY_PROTOCOL
             - ENABLE_WELCOME_PAGE
             - ENABLE_CLOSE_PAGE
             - ENABLE_LIVESTREAMING
@@ -130,6 +132,7 @@ services:
             - NGINX_WORKER_CONNECTIONS
             - PEOPLE_SEARCH_URL
             - PREFERRED_LANGUAGE
+            - PROXY_PROTOCOL_WHITELIST
             - PUBLIC_URL
             - P2P_PREFERRED_CODEC
             - P2P_STUN_SERVERS
